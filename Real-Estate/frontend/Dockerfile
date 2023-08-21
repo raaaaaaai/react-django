@@ -16,8 +16,8 @@ COPY package.json /app/
 COPY package-lock.json /app/
 
 # Install app dependencies
-RUN npm install styled-components.
 RUN npm install
+RUN npm install styled-components
 
 # Copy the entire app to the container
 COPY . .
