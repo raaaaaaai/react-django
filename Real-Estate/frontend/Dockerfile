@@ -4,9 +4,9 @@ FROM node:14
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
 RUN . ~/.nvm/nvm.sh && \
-    nvm install 10.24.1 && \
-    nvm use 10.24.1 && \
-    npm install -g npm@6.14.12
+    nvm install v16.20.2 && \
+    nvm use v16.20.2 && \
+    npm install -g npm@8.19.4
 
 # Set the working directory inside the container
 WORKDIR /app
