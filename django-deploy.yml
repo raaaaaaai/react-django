@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: django-app
-          image: your-django-image:tag
+          image: aksregistery01.azure.io/raaaaaaai/react-django:django-image
           ports:
             - containerPort: 8000
 ---
